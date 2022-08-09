@@ -20,4 +20,4 @@ I’m Nomad
 - 👀 I’m interested in Cybersecurity, Electronics, and Gaming.
 - 🔭 I’m currently working on making a real **strategy** game.
 - 🌱 I’m currently studing for the OSCP 🔥🔥🔥.
-- 📫 You can reach me through my discord: [ttps://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white](https://discord.com/users/nomad7cs#1578)
+- 📫 You can reach me through my discord: [![discord Badge](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/nomad7cs#1578)
