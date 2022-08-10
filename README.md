@@ -21,3 +21,12 @@ I’m Nomad
 - 🔭 I’m currently working on making a real **strategy** game.
 - 🌱 I’m currently studing for the OSCP 🔥🔥🔥.
 - 📫 You can reach me through my discord: [![discord Badge](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/nomad7cs#1578)
+---
+### :fire: My Stats :
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=pathfinder-7&theme=dark&background=000000)](https://git.io/streak-stats)
+<br>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pathfinder-7&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+---
+### :writing_hand: Blog Posts :
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
