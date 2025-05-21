@@ -19,7 +19,7 @@ Nomad is here.
 
 - 👀 I’m interested in Cybersecurity.
 - 🔭 I’m currently working on making a real **strategy** game.
-- 🌱 I’m currently studying for the OSCP exam 🔥🔥🔥.
+<!-- - 🌱 I’m currently studying for the OSCP exam 🔥🔥🔥. -->
 - 📫 You can reach me through my discord: [![discord Badge](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/nomad7cs#1578)
 <!--
 ---
