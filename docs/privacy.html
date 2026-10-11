@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy information for nomad7cs’s personal rclone OAuth app and its informational website.">
+  <title>Privacy · rclone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="rclone homepage"><span class="mark" aria-hidden="true">r</span>rclone</a>
+    <nav aria-label="Main navigation"><a href="privacy.html" aria-current="page">Privacy</a><a href="https://github.com/nomad7cs">Owner profile</a></nav>
+  </header>
+  <main id="main" class="policy">
+    <section class="policy-intro" aria-labelledby="page-title">
+      <p class="eyebrow">Personal OAuth app</p>
+      <h1 id="page-title">Privacy policy</h1>
+      <p class="lede">For the OAuth app named <strong>rclone</strong>, owned and used by <a href="https://github.com/nomad7cs">nomad7cs</a> to sync a personal laptop directory with Google Drive.</p>
+      <p class="date">Last updated: 11 October 2026</p>
+    </section>
+    <section aria-labelledby="purpose"><h2 id="purpose">Purpose and scope</h2>
+      <p>This app is a personal authorization setup for the rclone command-line tool. It is not offered as a general public service. This policy describes the configured Google Drive permission, the intended file-sync use, and this informational website.</p>
+    </section>
+    <section aria-labelledby="access"><h2 id="access">Google Drive access</h2>
+      <p>The app requests the full Drive permission, <code>https://www.googleapis.com/auth/drive</code>. This permits reading file contents and metadata, and creating, changing, or deleting Drive files. Rclone’s full-access scope excludes the Application Data Folder.</p>
+      <p>The intended use is syncing the owner’s selected files between the laptop and Google Drive. Local configuration and commands choose which folders to operate on; the OAuth permission itself is broader than one selected folder.</p>
+      <p>See <a href="https://rclone.org/drive/#scopes">rclone’s scope documentation</a> and <a href="https://developers.google.com/workspace/drive/api/guides/api-specific-auth">Google’s Drive permissions documentation</a>.</p>
+    </section>
+    <section aria-labelledby="flow"><h2 id="flow">How data is used and transferred</h2>
+      <p>Rclone runs on the laptop and communicates directly with Google Drive to perform the owner’s configured operations. These can include listing files, comparing metadata, transferring file contents, and changing or deleting destination files.</p>
+      <p>This informational website does not request a Google login, receive Drive files, or receive OAuth credentials or tokens. The personal setup is intended to use Google data only for the file operations chosen by the owner, without using that data for advertising or selling it.</p>
+      <p>This personal app’s use of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+    </section>
+    <section aria-labelledby="storage"><h2 id="storage">Storage and retention</h2>
+      <p>Synced files are stored in the local directories and Google Drive locations chosen by the owner. They remain there until the owner or a configured file operation changes or deletes them. Google Drive trash and retention behavior are governed by Google’s service.</p>
+      <p>Rclone stores OAuth client credentials and authorization tokens in its local configuration on the laptop. This policy does not claim that the configuration is encrypted. Local configuration, filesystem permissions, backups, and any logs are controlled by the owner.</p>
+      <p>Revoking authorization stops future authorized Drive access; it does not automatically delete existing local copies, Drive files, or the local rclone configuration.</p>
+    </section>
+    <section aria-labelledby="control"><h2 id="control">Control and revocation</h2>
+      <p>The owner can stop rclone, change its configuration or commands, delete local copies, and manage files in Google Drive. Access can be revoked in <a href="https://myaccount.google.com/connections">Google Account third-party connections</a> by removing this app’s connection.</p>
+      <p>Local credentials and tokens can also be removed by deleting the corresponding rclone remote or its configuration. After revocation, a new authorization is required to reconnect.</p>
+    </section>
+    <section aria-labelledby="website"><h2 id="website">Website hosting</h2>
+      <p>This website includes no additional analytics, advertising, cookies, login form, or scripts. When hosted on GitHub Pages, GitHub handles technical request metadata; GitHub documents that visitor IP addresses are logged and stored for security purposes.</p>
+      <p>Hosting practices are described in the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a> and <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub Pages data-collection documentation</a>. Following external links is subject to those services’ own policies.</p>
+    </section>
+    <section aria-labelledby="contact"><h2 id="contact">Owner and contact</h2>
+      <p>The OAuth app owner is <strong>nomad7cs</strong>. Public profile information and available contact options are at <a href="https://github.com/nomad7cs">github.com/nomad7cs</a>.</p>
+      <p>This policy should be updated if the personal setup’s data use or hosting changes.</p>
+    </section>
+  </main>
+  <footer><p>rclone · A personal OAuth setup by nomad7cs</p><p><a href="index.html">Return to homepage</a></p></footer>
+</body>
+</html>

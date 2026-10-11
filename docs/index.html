@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about nomad7cs’s personal rclone setup for syncing a laptop directory with Google Drive.">
+  <title>rclone · Personal Drive sync</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="rclone homepage"><span class="mark" aria-hidden="true">r</span>rclone</a>
+    <nav aria-label="Main navigation"><a href="privacy.html">Privacy</a><a href="https://github.com/nomad7cs">Owner profile</a></nav>
+  </header>
+  <main id="main">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">Personal use · Managed by nomad7cs</p>
+      <h1 id="page-title">A laptop directory.<br>A Google Drive connection.</h1>
+      <p class="lede">This OAuth app, named <strong>rclone</strong>, is owned by <a href="https://github.com/nomad7cs">nomad7cs</a> for a personal file-sync setup.</p>
+      <p>It connects the rclone command-line tool to the owner’s Google Drive account. Sync commands can transfer files between a chosen local directory and a chosen Drive folder.</p>
+      <p class="notice">This is information about a personal setup. It is not a public file-sync service, and this website does not ask you to sign in to Google or access your Drive.</p>
+    </section>
+    <section class="detail-section" aria-labelledby="how-title">
+      <div class="section-label"><p class="eyebrow">How it works</p><h2 id="how-title">Files move through rclone.</h2></div>
+      <div class="section-copy">
+        <p>The owner runs rclone on the laptop and authorizes it through Google’s consent screen. Rclone then communicates directly with Google Drive for the configured file operations.</p>
+        <p>The OAuth permission allows rclone to read, create, change, and delete Drive files. The folders and transfer direction are chosen in the local rclone commands; a sync command can also remove destination files to match its source.</p>
+        <p>This informational website does not receive Drive files, OAuth credentials, or access tokens.</p>
+      </div>
+    </section>
+    <section class="detail-section" aria-labelledby="learn-title">
+      <div class="section-label"><p class="eyebrow">Details &amp; contact</p><h2 id="learn-title">Know what you authorize.</h2></div>
+      <div class="section-copy">
+        <p>Read the <a href="privacy.html">privacy policy</a> for permissions, storage, retention, and how to revoke access.</p>
+        <p>The <a href="https://rclone.org/drive/">rclone Google Drive documentation</a> explains the tool’s configuration and behavior.</p>
+        <p>The owner’s public profile and contact options are available at <a href="https://github.com/nomad7cs">github.com/nomad7cs</a>.</p>
+      </div>
+    </section>
+  </main>
+  <footer><p>rclone · A personal OAuth setup by nomad7cs</p><p>Updated 11 October 2026 · <a href="privacy.html">Privacy policy</a></p></footer>
+</body>
+</html>
